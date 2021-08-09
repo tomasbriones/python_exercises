@@ -7,9 +7,17 @@
 # print(id(x)) #posicion de memotia donde se almacena x de la literal 10, direccion de memoria 
 # print(type(x))
 
-miNombre = 'Tomas Briones'
-for i in miNombre:
-    if i == " ":
-        print(i)
-    else:
-        print(i,end="")
+# miNombre = 'Tomas Briones'
+# for i in miNombre:
+#     if i == " ":
+#         print(i)
+#     else:
+#         print(i,end="")
+
+condicion = True
+i=0
+while i<3:
+    print('Ejecutando')
+    i+=1
+else:
+    print('fin ciclo while')
