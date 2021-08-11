@@ -14,10 +14,16 @@
 #     else:
 #         print(i,end="")
 
-condicion = True
-i=0
-while i<3:
-    print('Ejecutando')
-    i+=1
-else:
-    print('fin ciclo while')
+# condicion = True
+# i=0
+# while i<3:
+#     print('Ejecutando')
+#     i+=1
+# else:
+#     print('fin ciclo while')
+
+nombres = []
+for i in range(0,2):
+    nombres.append(input('ingrese nombre: '))
+
+print(nombres)
