@@ -42,3 +42,11 @@
 
 # imprimirNUmero(5)
 # imprimirNUmero(3)
+
+def calcular_total(pago_sin_impuesto,impuesto):
+    total_pago = pago_sin_impuesto*(1 + (impuesto/100))
+    return total_pago
+
+pago = int(input('ingrese pago: '))
+tasa = int(input('ingrese tasa: '))
+print(calcular_total(pago,tasa))
