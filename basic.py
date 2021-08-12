@@ -22,8 +22,31 @@
 # else:
 #     print('fin ciclo while')
 
-nombres = []
-for i in range(0,2):
-    nombres.append(input('ingrese nombre: '))
+# nombres = []
+# for i in range(0,2):
+#     nombres.append(input('ingrese nombre: '))
 
-print(nombres)
+# print(nombres)
+
+# tupla = (13,1,8,3,2,5,8)
+# lista = []
+# for i in tupla:
+#     if i<5:
+#         lista.append(i)
+# else:
+#     print(lista)
+
+diccionario = {
+    'name':'tomas',
+    'age':1,
+    'genere':'male'
+}
+# print(diccionario['age'])
+# print(diccionario.get('age'))
+
+for termino, valor in diccionario.items(): #nos regresa los elementos separados por termino y valor .keys para terminos o .values para valores de cada termino
+    print(termino, valor)
+
+#si existe usaremos ('ide' in diccionario) con IN
+
+#para agregar usamos diccionario['algo']= 'su valor'
